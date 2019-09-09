@@ -57,6 +57,10 @@ Dossier1 ; que se passe-t-il ?_
 Pour revenir au dossier personnel j'effectue la commande suivante : `cd`
 Pour supprimer le Fichier1 j'effectue la commande suivante : `rm Dossier1/Fichier1`
 
+la commande `rm Dossier1` a affiché une erreur _cannot remove Dossier1: Is a directory_
+Il faut modifier la commande `rm` pour supprimer un dossier.
+
+
 
 9-  _quelle commande permet de supprimer un dossier ?_
 
