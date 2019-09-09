@@ -54,17 +54,21 @@ Lorsque je fait `cd /root` j'ai l'erreur "Permission Denied" c'est a dire que je
 8-  _revenez dans votre dossier personnel ; à l’aide de la commande rm, essayez de supprimer Fichier1, puis
 Dossier1 ; que se passe-t-il ?
 
+Pour revenir au dossier personnel j'effectue la commande suivante : `cd`
+Pour supprimer le Fichier1 j'effectue la commande suivante : `rm Dossier1/Fichier1`
 
 
 9-  _quelle commande permet de supprimer un dossier ?
 
-`rm -r`
+`rmdir`
 
-10- _que se passe-t-il quand on applique cette commande à Dossier2 ?
+10- _que se passe-t-il quand on applique cette commande à Dossier2 ?_
 
-ça a supprimer dossier2 et donc accessoirement tout ce qu'il y'avait à l'interieur 
+ça n'a pas supprimer dossier2 et donc accessoirement tout ce qu'il y'avait à l'interieur 
 
-11- _comment supprimer en une seule commande Dossier2 et son contenu ?
+11- _comment supprimer en une seule commande Dossier2 et son contenu ?_
+
+`rm -r dossier2` 
 
 ## Commandes importantes 
 
