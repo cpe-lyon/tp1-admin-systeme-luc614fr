@@ -117,6 +117,7 @@ Elle créee un fichier nommé plop avec écrit à l'interieur yo et la deuxième
 
 10- _A quoi sert la commande file ? Essayez la sur des fichiers de types différents_ 
 
+file permet de déterminer le type d'un fichier 
 
 
 
