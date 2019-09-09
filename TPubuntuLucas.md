@@ -82,7 +82,7 @@ Il faut modifier la commande `rm` pour supprimer un dossier.
 la commande qui permet d'afficher l'heure est la commande : `date` <br> la commande `time` sert à determiner le temps d'execution d'une commande choisie. 
 
 
-
-
 2- _Dans votre dossier personnel, tapez successivement les commandes ls puis la ; que peut-on en déduire
 sur les fichiers commençant par un point ?
+
+On peut en déduire que les fichiers commençant par un point sont des fichiers cachés 
