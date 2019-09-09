@@ -118,18 +118,76 @@ Elle créee un fichier nommé plop avec écrit à l'interieur yo et la deuxième
 
 file permet de déterminer le type d'un fichier 
 
-11- _Créez un fichier toto qui contient la chaîne Hello Toto ! ; créer ensuite un lien titi vers ce fichier
+11- <b>_Créez un fichier toto qui contient la chaîne Hello Toto ! ; créer ensuite un lien titi vers ce fichier
 avec la commande ln toto titi. Modifiez à présent le contenu de toto et affichez le contenu de titi :
-qu’observe-t-on ? Supprimez le fichier toto ; quelle conséquence cela a-t-il sur titi ?_
+qu’observe-t-on ? Supprimez le fichier toto ; quelle conséquence cela a-t-il sur titi ?_</b>
 
 Lorsqu'on a modifié le contenu de toto cela a modifier le contenue de titi cependant lorsqu'on supprime le fichier toto le fichier titi 
 reste présent
 
-12- _Créez à présent un lien symbolique tutu sur titi avec la commande ln -s titi tutu. Modifiez le
+12- <b>_Créez à présent un lien symbolique tutu sur titi avec la commande ln -s titi tutu. Modifiez le
 contenu de titi ; quelle conséquence pour tutu ? Et inversement ? Supprimez le fichier titi ; quelle
-conséquence cela a-t-il sur tutu ?_
+conséquence cela a-t-il sur tutu ?_</b>
 
 La supression de l'un entraine la supression de l'autre 
+
+13- <b>_Affichez à l’écran le fichier /var/log/syslog. Quels raccourcis clavier permettent d’interrompre et
+reprendre le défilement à l’écran ?_</b>
+
+La touche arrêt défil permet d'interrompre et reprendre le défilement a l'écran 
+
+14- <b>_Affichez les 5 premières lignes du fichier /var/log/syslog, puis les 15 dernières, puis seulement les
+lignes 10 à 20._</b>
+
+j'utilise la commande `head -5 /var/log/syslog` pour les 5 première lignes du fichier 
+la commande `tail -15 /var/log/syslog` pour les 15 dernières lignes et `head -n 10 25 /var/log/syslog` pour les lignes 10 à 20
+
+15- <b>_Que fait la commande dmesg | less ?_</b>
+
+Elle affiche en une seule page les informations du noyau 
+
+16- <b>_Affichez à l’écran le fichier /etc/passwd ; que contient-il ? Quelle commande permet d’afficher la page
+de manuel de ce fichier ?_</b>
+
+j'ai fait `cat /etc/passwd/`,  il contient différentes informations sur les comptes utilisateurs. 
+
+La commande qui permet d'afficher la page de manuel est `man 5 passwd` 
+
+17- <b>_Affichez seulement la première colonne triée par ordre alphabétique inverse_</b>
+
+
+`sort -r: +1 /etc/passwd` 
+
+
+18- <b>_Quelle commande nous donne le nombre d’utilisateurs ?_</b>
+
+`who` 
+
+19- <b>_Combien de pages de manuel comportent le mot-clé conversion dans leur description ?_</b>
+
+j'ai fait `man -k conversion` je vois qu'il y'a 4 résultats
+
+20- <b>_A l’aide de la commande find, recherchez tous les fichiers se nommant passwd présents sur la machine_</b>
+
+`find -name "passwd"` 
+
+21-<b> _Modifiez la commande précédente pour que la liste des fichiers trouvés soit enregistrée dans le fichier
+~/list_passwd_files.txt et que les erreurs soient redirigées vers le fichier spécial /dev/null_</b>
+
+22- <b>_Dans votre dossier personnel, utilisez la commande grep pour chercher où est défini l’alias ll vu
+précédemment_</b>
+
+23- <b>_Utilisez la commande locate pour trouver le fichier history.log._</b>
+
+`locate history.log` il se situe donc dans /var/log/apt
+
+24- <b>_Créer un fichier dans votre dossier personnel puis utilisez locate pour le trouver. Apparaît-il ? Pourquoi ?_</b>
+
+Non il n'apparait pas car la commande locate recherche dans une base de données et non pas sur notre disque dur, le fichier n'est donc pas repertorié dans la base de données (Elle est mise a jour une fois par jour) 
+
+
+
+
 
 
 
