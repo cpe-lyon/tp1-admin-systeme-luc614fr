@@ -55,7 +55,6 @@ Lorsque je fait `cd /root` j'ai l'erreur "Permission Denied" c'est a dire que je
 8-  <b>_revenez dans votre dossier personnel ; à l’aide de la commande rm, essayez de supprimer Fichier1, puis
 Dossier1 ; que se passe-t-il ?_</b>
 
-Pour revenir au dossier personnel j'effectue la commande suivante : `cd`
 Pour supprimer le Fichier1 j'effectue la commande suivante : `rm Dossier1/Fichier1`
 
 la commande `rm Dossier1` a affiché une erreur _cannot remove Dossier1: Is a directory_
