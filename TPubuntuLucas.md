@@ -1,5 +1,7 @@
 # Prise en main de l’interpréteur de commandes
 
+## Manuel
+
 1- _A l’aide du manuel, identifiez le rôle de la commande which_
 
 Pour identifier le rôle de la commande which a l'aide du manuel, j'ai effectué la commande suivante :
@@ -17,5 +19,26 @@ Pour quitter le manuel il faut appuyer sur la touche q
 4- _Chaque section du manuel a une première page, qui présente le contenu de la section. Afficher la
 première page de la section 6 ; de quoi parle cette section ?_
 
-Pour affichher la première page de la section 6 j'ai effectué la commande suivante : `man 6 intro`
+Pour afficher la première page de la section 6 j'ai effectué la commande suivante : `man 6 intro`
 Cette section parle des jeux et des programmes disponnible sur le système 
+
+## Navigation dans l’arborescence des fichiers
+
+1- _allez dans le dossier /var/log_
+`cd /var/log` 
+
+2- _remontez dans le dossier parent (/var) en utilisant un chemin relatif
+
+`cd ..`
+
+3- _retournez dans le dossier personnel
+
+`cd`
+
+4- _revenez au dossier précédent (/var)
+
+`cd -`
+
+5- _essayez d’accéder au dossier /root ; que se passe-t-il ?
+
+Lorsque je fait `cd /root` j'ai l'erreur "Permission Denied" c'est a dire que je n'ai pas les droits
