@@ -13,3 +13,9 @@ Pour rechercher le mot option lorsqu'on consulte cette page il suffit de faire l
 3- _Comment quitte-t-on le manuel_ ?
 
 Pour quitter le manuel il faut appuyer sur la touche q 
+
+4- _Chaque section du manuel a une première page, qui présente le contenu de la section. Afficher la
+première page de la section 6 ; de quoi parle cette section ?_
+
+Pour affichher la première page de la section 6 j'ai effectué la commande suivante : `man 6 intro`
+Cette section parle des jeux et des programmes disponnible sur le système 
