@@ -118,6 +118,19 @@ Elle créee un fichier nommé plop avec écrit à l'interieur yo et la deuxième
 
 file permet de déterminer le type d'un fichier 
 
+11- _Créez un fichier toto qui contient la chaîne Hello Toto ! ; créer ensuite un lien titi vers ce fichier
+avec la commande ln toto titi. Modifiez à présent le contenu de toto et affichez le contenu de titi :
+qu’observe-t-on ? Supprimez le fichier toto ; quelle conséquence cela a-t-il sur titi ?_
+
+Lorsqu'on a modifié le contenu de toto cela a modifier le contenue de titi cependant lorsqu'on supprime le fichier toto le fichier titi 
+reste présent
+
+12- _Créez à présent un lien symbolique tutu sur titi avec la commande ln -s titi tutu. Modifiez le
+contenu de titi ; quelle conséquence pour tutu ? Et inversement ? Supprimez le fichier titi ; quelle
+conséquence cela a-t-il sur tutu ?_
+
+La supression de l'un entraine la supression de l'autre 
+
 
 
 
