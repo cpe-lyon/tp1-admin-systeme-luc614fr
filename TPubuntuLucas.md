@@ -28,7 +28,7 @@ Cette section parle des jeux et des programmes disponnible sur le système
 
 `cd /var/log` 
 
-2- <b>_remontez dans le dossier parent (/var) en utilisant un chemin relatif_
+2- <b>_remontez dans le dossier parent (/var) en utilisant un chemin relatif_</b>
 
 `cd ..`
 
