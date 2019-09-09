@@ -2,57 +2,57 @@
 
 ## Manuel
 
-1- _A l’aide du manuel, identifiez le rôle de la commande which_
+1- <b>_A l’aide du manuel, identifiez le rôle de la commande which_</b>
 
 Pour identifier le rôle de la commande which a l'aide du manuel, j'ai effectué la commande suivante :
 `man which` 
 Celà m'a alors dis que cette commande sert a localiser une commande 
 
-2- _Quand on consulte cette page, comment peut-on rechercher, par exemple, le mot option_ ?
+2- <b>_Quand on consulte cette page, comment peut-on rechercher, par exemple, le mot option_ ?</b>
  
 Pour rechercher le mot option lorsqu'on consulte cette page il suffit de faire la commande suivante : `/option` on aura alors en surbrillance toute les fois où apparait le mot option 
 
-3- _Comment quitte-t-on le manuel_ ?
+3- <b>_Comment quitte-t-on le manuel ?_</b>
 
 Pour quitter le manuel il faut appuyer sur la touche q 
 
-4- _Chaque section du manuel a une première page, qui présente le contenu de la section. Afficher la
-première page de la section 6 ; de quoi parle cette section ?_
+4- <b>_Chaque section du manuel a une première page, qui présente le contenu de la section. Afficher la
+première page de la section 6 ; de quoi parle cette section ?_</b>
 
 Pour afficher la première page de la section 6 j'ai effectué la commande suivante : `man 6 intro`
 Cette section parle des jeux et des programmes disponnible sur le système 
 
 ## Navigation dans l’arborescence des fichiers
 
-1- _allez dans le dossier /var/log_
+1- <b>_allez dans le dossier /var/log_</b>
 `cd /var/log` 
 
-2- _remontez dans le dossier parent (/var) en utilisant un chemin relatif_
+2- <b>_remontez dans le dossier parent (/var) en utilisant un chemin relatif_
 
 `cd ..`
 
-3- _retournez dans le dossier personnel_
+3- <b>_retournez dans le dossier personnel_</b>
 
 `cd`
 
-4- _revenez au dossier précédent (/var)_
+4- <b>_revenez au dossier précédent (/var)_</b>
 
 `cd -`
 
-5- _essayez d’accéder au dossier /root ; que se passe-t-il ?_
+5- <b>_essayez d’accéder au dossier /root ; que se passe-t-il ?_</b>
 
 Lorsque je fait `cd /root` j'ai l'erreur "Permission Denied" c'est a dire que je n'ai pas les droits
 
-6-  _essayez la commande sudo cd /root ; que se passe-t-il ? Expliquez_
+6-  <b>_essayez la commande sudo cd /root ; que se passe-t-il ? Expliquez_</b>
 
 ça ne marche pas car en mode sudo je ne peux pas utiliser les commandes du shell (cd)
 
-7-  _à partir de votre dossier personnel, créez l’arborescence suivante :_
+7-  <b>_à partir de votre dossier personnel, créez l’arborescence suivante :_</b>
 
 `mkdir dossier1` <br> `mkdir dossier2` <br> `cd dossier2` `mkdir dossier2.1` `mkdir dossier 2.2` <br> `cd dossier2.2` `touch fichier2` `touch fichier3` <br> `cd /dossier1` `touch fichier1`
 
-8-  _revenez dans votre dossier personnel ; à l’aide de la commande rm, essayez de supprimer Fichier1, puis
-Dossier1 ; que se passe-t-il ?_
+8-  <b>_revenez dans votre dossier personnel ; à l’aide de la commande rm, essayez de supprimer Fichier1, puis
+Dossier1 ; que se passe-t-il ?_</b>
 
 Pour revenir au dossier personnel j'effectue la commande suivante : `cd`
 Pour supprimer le Fichier1 j'effectue la commande suivante : `rm Dossier1/Fichier1`
@@ -62,11 +62,11 @@ Il faut modifier la commande `rm` pour supprimer un dossier.
 
 
 
-9-  _quelle commande permet de supprimer un dossier ?_
+9-  <b>_quelle commande permet de supprimer un dossier ?_</b>
 
 `rmdir`
 
-10- _que se passe-t-il quand on applique cette commande à Dossier2 ?_
+10- <b>_que se passe-t-il quand on applique cette commande à Dossier2 ?_</b>
 
 ça n'a pas supprimer dossier2 et donc accessoirement tout ce qu'il y'avait à l'interieur 
 
