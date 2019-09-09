@@ -70,7 +70,7 @@ Il faut modifier la commande `rm` pour supprimer un dossier.
 
 ça n'a pas supprimer dossier2 et donc accessoirement tout ce qu'il y'avait à l'interieur 
 
-11- _comment supprimer en une seule commande Dossier2 et son contenu ?_
+11- <b>_comment supprimer en une seule commande Dossier2 et son contenu ?_</b>
 
 `rm -r dossier2` 
 
