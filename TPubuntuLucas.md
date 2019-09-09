@@ -86,3 +86,38 @@ la commande qui permet d'afficher l'heure est la commande : `date` <br> la comma
 sur les fichiers commençant par un point ?
 
 On peut en déduire que les fichiers commençant par un point sont des fichiers cachés 
+
+3- _Où se situe le programme ls ?_
+
+J'ai effectué la commande `which ls` et j'ai eu l'arborescence suivante : `/usr/bin/ls` 
+
+4- _Que fait la commande ll ? (indice : la commande alias peut vous aider)_
+
+la commande ll affiche toutes les informations des fichiers et des dossiers 
+
+5- _Quelle commande permet d’afficher les fichiers contenus dans le dossier /bin ?_
+
+La commande qui permet d'afficher cela est : `ls /bin`
+
+6- _Que fait la commande ls .. ?_
+
+La commande ls permet d'obtenir la liste et les caractéristiques des fichiers contenus dans un répertoire.
+
+7- _Quelle commande donne le chemin complet du dossier courant ?_
+
+`pwd`
+
+8- _Que fait la commande echo 'yo' > plop exécutée 2 fois ?_
+
+Elle créee un fichier nommé plop avec écrit à l'interieur yo 
+
+9- _ Que fait la commande echo 'yo' >> plop exécutée 2 fois ?_ 
+
+Elle créee un fichier nommé plop avec écrit à l'interieur yo et la deuxième execution ne recrée pas le fichier mais rajoute un yo a la suite 
+
+10- _A quoi sert la commande file ? Essayez la sur des fichiers de types différents_ 
+
+
+
+
+
