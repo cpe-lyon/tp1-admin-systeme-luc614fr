@@ -42,3 +42,18 @@ Cette section parle des jeux et des programmes disponnible sur le système
 5- _essayez d’accéder au dossier /root ; que se passe-t-il ?
 
 Lorsque je fait `cd /root` j'ai l'erreur "Permission Denied" c'est a dire que je n'ai pas les droits
+
+6-  _essayez la commande sudo cd /root ; que se passe-t-il ? Expliquez
+
+ça ne marche pas car en mode sudo je ne peux pas utiliser les commandes du shell (cd)
+
+7-  _à partir de votre dossier personnel, créez l’arborescence suivante :
+
+`mkdir dossier1` <br> `mkdir dossier2` <br> `cd dossier2` `mkdir dossier2.1` `mkdir dossier 2.2` <br> `cd dossier2.2` `touch fichier2` `touch fichier3` <br> `cd /dossier1` `touch fichier1`
+
+8-  _revenez dans votre dossier personnel ; à l’aide de la commande rm, essayez de supprimer Fichier1, puis
+Dossier1 ; que se passe-t-il ?
+
+9-  _quelle commande permet de supprimer un dossier ?
+
+10- 
