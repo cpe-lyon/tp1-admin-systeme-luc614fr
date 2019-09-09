@@ -25,6 +25,7 @@ Cette section parle des jeux et des programmes disponnible sur le système
 ## Navigation dans l’arborescence des fichiers
 
 1- <b>_allez dans le dossier /var/log_</b>
+
 `cd /var/log` 
 
 2- <b>_remontez dans le dossier parent (/var) en utilisant un chemin relatif_
