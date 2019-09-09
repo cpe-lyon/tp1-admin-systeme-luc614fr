@@ -76,45 +76,45 @@ Il faut modifier la commande `rm` pour supprimer un dossier.
 
 ## Commandes importantes 
 
-1- _Quelle commande permet d’afficher l’heure ? A quoi sert la commande time ?
+1- <b>_Quelle commande permet d’afficher l’heure ? A quoi sert la commande time ?_</b>
 
 la commande qui permet d'afficher l'heure est la commande : `date` <br> la commande `time` sert à determiner le temps d'execution d'une commande choisie. 
 
 
-2- _Dans votre dossier personnel, tapez successivement les commandes ls puis la ; que peut-on en déduire
-sur les fichiers commençant par un point ?
+2- <b>_Dans votre dossier personnel, tapez successivement les commandes ls puis la ; que peut-on en déduire
+sur les fichiers commençant par un point ?_</b>
 
 On peut en déduire que les fichiers commençant par un point sont des fichiers cachés 
 
-3- _Où se situe le programme ls ?_
+3- <b>_Où se situe le programme ls ?_</b>
 
 J'ai effectué la commande `which ls` et j'ai eu l'arborescence suivante : `/usr/bin/ls` 
 
-4- _Que fait la commande ll ? (indice : la commande alias peut vous aider)_
+4- <b>_Que fait la commande ll ? (indice : la commande alias peut vous aider)_</b>
 
 la commande ll affiche toutes les informations des fichiers et des dossiers 
 
-5- _Quelle commande permet d’afficher les fichiers contenus dans le dossier /bin ?_
+5- <b>_Quelle commande permet d’afficher les fichiers contenus dans le dossier /bin ?_</b>
 
 La commande qui permet d'afficher cela est : `ls /bin`
 
-6- _Que fait la commande ls .. ?_
+6- <b>_Que fait la commande ls .. ?_</b>
 
 La commande ls permet d'obtenir la liste et les caractéristiques des fichiers contenus dans un répertoire.
 
-7- _Quelle commande donne le chemin complet du dossier courant ?_
+7- <b>_Quelle commande donne le chemin complet du dossier courant ?_</b>
 
 `pwd`
 
-8- _Que fait la commande echo 'yo' > plop exécutée 2 fois ?_
+8- <b>_Que fait la commande echo 'yo' > plop exécutée 2 fois ?_</b>
 
 Elle créee un fichier nommé plop avec écrit à l'interieur yo 
 
-9- _ Que fait la commande echo 'yo' >> plop exécutée 2 fois ?_ 
+9- <b>_ Que fait la commande echo 'yo' >> plop exécutée 2 fois ?_</b> 
 
 Elle créee un fichier nommé plop avec écrit à l'interieur yo et la deuxième execution ne recrée pas le fichier mais rajoute un yo a la suite 
 
-10- _A quoi sert la commande file ? Essayez la sur des fichiers de types différents_ 
+10- <b>_A quoi sert la commande file ? Essayez la sur des fichiers de types différents_ </b>
 
 file permet de déterminer le type d'un fichier 
 
