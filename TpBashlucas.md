@@ -14,3 +14,6 @@ votre répertoire personnel ?_</b>
 la variable d'environnement est la suivante : `%HOMEPATH%`
 
 3- <b> Explicitez le rôle des variables LANG, PWD, OLDPWD, SHELL et _.</b>
+
+la variable d’environnement LANG détermine la langue que les logiciels utilisent pour communiquer avec l’utilisateur
+
