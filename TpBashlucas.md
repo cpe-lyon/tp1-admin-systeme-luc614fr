@@ -38,4 +38,10 @@ Elle ouvre un nouveau niveau sur le shell. La variable MY_VAR n'existe pas car c
 7- <b> _Créer la variable d’environnement NOMS ayant pour contenu vos noms de binômes séparés par un espace.
 Afficher la valeur de NOMS pour vérifier que l’affectation est correcte._ </b>
 
-`export NOMS="lucas franck"` 
+`export NOMS="lucas franck"`  L'affectation est bien correcte après vérification 
+
+
+8- <b> _Ecrivez une commande qui affiche ”Bonjour à vous deux, binôme1 binôme2 !” (où binôme1 et binôme2
+sont vos deux noms) en utilisant la variable NOMS._ </b>
+
+
