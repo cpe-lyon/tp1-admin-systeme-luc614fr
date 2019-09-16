@@ -32,6 +32,6 @@ de cette question, tapez la commande exit pour revenir dans votre session initia
 
 6- <b> _Transformez MY_VAR en une variable d’environnement et recommencez la question précédente. Expliquez._ </b>
 
-`export MY_VAR="abc" ; printenv MY_VAR` et je vois abc qui apparait 
+`export MY_VAR="abc"` puis `printenv MY_VAR` et je vois abc qui apparait 
 
 
