@@ -29,7 +29,8 @@ echo $MY_VAR`
 5- <b> _Tapez ensuite la commande bash. Que fait-elle ? La variable MY_VAR existe-t-elle ? Expliquez. A la fin
 de cette question, tapez la commande exit pour revenir dans votre session initiale._ </b>
 
-Elle ouvre un nouveau niveau sur le shell. La variable MY_VAR n'existe pas car c'est une variable lcoale 
+Elle ouvre un nouveau niveau sur le shell. La variable MY_VAR n'existe pas car c'est une variable locale 
+
 6- <b> _Transformez MY_VAR en une variable d’environnement et recommencez la question précédente. Expliquez._ </b>
 
 `export MY_VAR="abc"` puis `printenv MY_VAR` et je vois abc qui apparait 
