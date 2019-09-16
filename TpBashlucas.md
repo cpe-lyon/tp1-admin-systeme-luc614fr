@@ -56,6 +56,8 @@ dossier personnel d’après bash)_ </b>
 
 echo "\$HOME = $HOME" 
 
+# Programmation Bash
+
 
 
 
