@@ -3,12 +3,12 @@
 
 
 
-1- <b>_1. Dans quels dossiers bash trouve-t-il les commandes tapées par l’utilisateur ?_</b>
+1- <b>_. Dans quels dossiers bash trouve-t-il les commandes tapées par l’utilisateur ?_</b>
 
 on tappe la commande `printenv PATH` et on a ce chemin comme résultat `/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin
 :/bin:/usr/games:/usr/local/games:/snap/bin`
 
-2- <b>_1.Quelle variable d’environnement permet à la commande cd tapée sans argument de vous ramener dans
+2- <b>_.Quelle variable d’environnement permet à la commande cd tapée sans argument de vous ramener dans
 votre répertoire personnel ?_</b>
 
 la variable d'environnement est la suivante : `$HOME`
@@ -19,3 +19,12 @@ la variable d’environnement LANG détermine la langue que les logiciels utilis
 la variable d'environnement PWD contient le répertoire de travail courant de l'interpréteur de commande.
 la variable d'environnement OLDPWD contient le chemin absolu vers le répertoire courant précédent
 la variable d'environnement SHELL indique l'interpréteur shell utilisé par défaut, ici c'est /bin/bash 
+la variable d'enbvironnement _ indique dans quel répertoire se situe dans la commande utilisé précedemment
+
+4- <b> _Créez une variable locale MY_VAR (le contenu n’a pas d’importance). Vérifiez que la variable existe_ </b>
+
+`MY_VAR= ; printenv MY_VAR
+echo $MY_VAR`
+
+5- <b> _Tapez ensuite la commande bash. Que fait-elle ? La variable MY_VAR existe-t-elle ? Expliquez. A la fin
+de cette question, tapez la commande exit pour revenir dans votre session initiale._ </b>
