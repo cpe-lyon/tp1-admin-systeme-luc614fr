@@ -44,4 +44,10 @@ Afficher la valeur de NOMS pour vérifier que l’affectation est correcte._ </b
 8- <b> _Ecrivez une commande qui affiche ”Bonjour à vous deux, binôme1 binôme2 !” (où binôme1 et binôme2
 sont vos deux noms) en utilisant la variable NOMS._ </b>
 
+`echo "Bonjour à vous deux, $NOMS"` 
+
+9- <b> _Quelle différence y a-t-il entre donner une valeur vide à une variable et l’utilisation de la commande
+unset ?_ </b>
+
+
 
