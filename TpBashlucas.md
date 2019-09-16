@@ -49,5 +49,14 @@ sont vos deux noms) en utilisant la variable NOMS._ </b>
 9- <b> _Quelle différence y a-t-il entre donner une valeur vide à une variable et l’utilisation de la commande
 unset ?_ </b>
 
+La variable qui a une valeure vide est toujours utilisable tandis que l'utilisation de la commande unset sur une variable la supprime et la rend inutilisable 
+
+10.  <b> _Utilisez la commande echo pour écrire exactement la phrase : $HOME = chemin (où chemin est votre
+dossier personnel d’après bash)_ </b>
+
+echo "\$HOME = $HOME" 
+
+
+
 
 
