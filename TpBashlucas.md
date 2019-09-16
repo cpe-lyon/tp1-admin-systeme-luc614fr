@@ -13,4 +13,4 @@ votre répertoire personnel ?_</b>
 
 la variable d'environnement est la suivante : `%HOMEPATH%`
 
-3- <b>\Explicitez le rôle des variables LANG, PWD, OLDPWD, SHELL et _. \</b>
+3- <b> Explicitez le rôle des variables LANG, PWD, OLDPWD, SHELL et _.</b>
