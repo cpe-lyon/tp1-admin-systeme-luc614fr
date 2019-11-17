@@ -151,6 +151,8 @@ de manuel de ce fichier ?_</b>
 
 j'ai fait `cat /etc/passwd/`,  il contient différentes informations sur les comptes utilisateurs. 
 
+correction prof : contient les mots de passe et autres informations sur les utilisateurs
+
 La commande qui permet d'afficher la page de manuel est `man 5 passwd` 
 
 17- <b>_Affichez seulement la première colonne triée par ordre alphabétique inverse_</b>
@@ -158,14 +160,18 @@ La commande qui permet d'afficher la page de manuel est `man 5 passwd`
 
 `sort -r: +1 /etc/passwd` 
 
+correction prof cut -d: -f1 /etc/passwd | sort -r
+
+
 
 18- <b>_Quelle commande nous donne le nombre d’utilisateurs ?_</b>
 
-`who` 
+`who` correction prof : `wc -l /etc/passwd` (compte le nombre de lignes du fichier /etc/passwd et donc le nombre
+d’utilisateurs
 
 19- <b>_Combien de pages de manuel comportent le mot-clé conversion dans leur description ?_</b>
 
-j'ai fait `man -k conversion` je vois qu'il y'a 4 résultats
+j'ai fait `man -k conversion  | wc -l ` je vois qu'il y'a 4 résultats
 
 20- <b>_A l’aide de la commande find, recherchez tous les fichiers se nommant passwd présents sur la machine_</b>
 
@@ -174,8 +180,14 @@ j'ai fait `man -k conversion` je vois qu'il y'a 4 résultats
 21-<b> _Modifiez la commande précédente pour que la liste des fichiers trouvés soit enregistrée dans le fichier
 ~/list_passwd_files.txt et que les erreurs soient redirigées vers le fichier spécial /dev/null_</b>
 
+`find / -name passwd 1> ~/list_passwd_files.txt 2> /dev/null`
+
+
 22- <b>_Dans votre dossier personnel, utilisez la commande grep pour chercher où est défini l’alias ll vu
 précédemment_</b>
+
+`grep -r "alias ll" .`
+
 
 23- <b>_Utilisez la commande locate pour trouver le fichier history.log._</b>
 
