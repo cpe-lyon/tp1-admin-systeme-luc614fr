@@ -72,7 +72,7 @@ Il faut modifier la commande `rm` pour supprimer un dossier.
 
 11- <b>_comment supprimer en une seule commande Dossier2 et son contenu ?_</b>
 
-`rm -r dossier2` 
+`rm -rf dossier2` 
 
 ## Commandes importantes 
 
