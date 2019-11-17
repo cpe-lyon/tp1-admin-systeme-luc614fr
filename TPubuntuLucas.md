@@ -125,16 +125,25 @@ qu’observe-t-on ? Supprimez le fichier toto ; quelle conséquence cela a-t-il 
 Lorsqu'on a modifié le contenu de toto cela a modifier le contenue de titi cependant lorsqu'on supprime le fichier toto le fichier titi 
 reste présent
 
+correction prof : La modification affecte les deux fichiers (ils sont liés) ; après suppression de toto, titi
+permet encore d’accéder au fichier car c’est un lien physique
+
 12- <b>_Créez à présent un lien symbolique tutu sur titi avec la commande ln -s titi tutu. Modifiez le
 contenu de titi ; quelle conséquence pour tutu ? Et inversement ? Supprimez le fichier titi ; quelle
 conséquence cela a-t-il sur tutu ?_</b>
 
 La supression de l'un entraine la supression de l'autre 
 
+correction prof : La modification affecte les deux fichiers (ils sont liés) ; après suppression de titi, tutu ne
+permet plus d’accéder au fichier car c’est un lien symbolique
+
 13- <b>_Affichez à l’écran le fichier /var/log/syslog. Quels raccourcis clavier permettent d’interrompre et
 reprendre le défilement à l’écran ?_</b>
 
 La touche arrêt défil permet d'interrompre et reprendre le défilement a l'écran 
+
+correction prof : cat /var/log/syslog ; CTRL + S ; CTRL + Q
+
 
 14- <b>_Affichez les 5 premières lignes du fichier /var/log/syslog, puis les 15 dernières, puis seulement les
 lignes 10 à 20._</b>
@@ -142,9 +151,15 @@ lignes 10 à 20._</b>
 j'utilise la commande `head -5 /var/log/syslog` pour les 5 première lignes du fichier 
 la commande `tail -15 /var/log/syslog` pour les 15 dernières lignes et `head -n 10 25 /var/log/syslog` pour les lignes 10 à 20
 
+correction prof : head -5 /var/log/syslog ; tail -15 /var/log/syslog ; head -20 /var/log/syslog | tail -11
+
+
 15- <b>_Que fait la commande dmesg | less ?_</b>
 
 Elle affiche en une seule page les informations du noyau 
+
+correction prof : Affiche page par page les messages émis par le noyau
+
 
 16- <b>_Affichez à l’écran le fichier /etc/passwd ; que contient-il ? Quelle commande permet d’afficher la page
 de manuel de ce fichier ?_</b>
