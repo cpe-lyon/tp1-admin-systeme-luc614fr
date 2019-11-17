@@ -108,7 +108,7 @@ La commande ls permet d'obtenir la liste et les caractéristiques des fichiers c
 
 8- <b>_Que fait la commande echo 'yo' > plop exécutée 2 fois ?_</b>
 
-Elle créee un fichier nommé plop avec écrit à l'interieur yo 
+Elle créee un fichier nommé plop avec écrit à l'interieur yo et re efface et le refait 
 
 9- <b>_ Que fait la commande echo 'yo' >> plop exécutée 2 fois ?_</b> 
 
